@@ -85,7 +85,7 @@ class ExploreScreen extends StatelessWidget {
               ),
             ),
             SizedBox(
-              height: MediaQuery.of(context).size.height * .32,
+              height: MediaQuery.of(context).size.height * .35,
               child: ListView.builder(
                 scrollDirection: Axis.horizontal,
                 itemBuilder: (context, index) {
